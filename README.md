@@ -3,7 +3,7 @@ This project analyzes restaurant-level data from an online food delivery platfor
 
 # Data Cleaning
 - **Ratings**
-     - Created an additional column to capture the numeric rating ranges corresponding to each rating label.
+     - Created an additional column **Ratings_Range** to capture the numeric rating ranges corresponding to each rating label.
      - Converted raw numeric ratings into categorical labels **(Poor, Average, Good, Excellent)** to facilitate meaningful analysis.
 - **Food Category**: Cleaned and consolidated food type data into a binary feature: **Veg / Non-Veg**.
 - **Cost Validation**: Created a column to mark cost values as Valid or Invalid.
