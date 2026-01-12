@@ -1,6 +1,9 @@
 # Swiggy-Restaurant-Performance-Pricing-Analysis
 This project analyzes restaurant-level data from an online food delivery platform (Swiggy) to derive insights on pricing, customer ratings, cuisine distribution and delivery operations.
 
+# Dataset
+- <a href="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Swiggy%20Dataset.xlsx">Swiggy Restaurant Data</a>
+
 # Data Cleaning
 - **Ratings**
      - Created an additional column **Ratings_Range** to capture the numeric rating ranges corresponding to each rating label.
