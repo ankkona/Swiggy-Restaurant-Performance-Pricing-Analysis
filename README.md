@@ -42,12 +42,12 @@ This project analyzes restaurant-level data from an online food delivery platfor
   - Indore, Nagpur: Low rating + low count → low priority for expansion.
 
 - Veg vs Non-Veg Distribution
- - Non-Veg restaurants dominate (~72%), Veg options are only ~28%.
- - There is opportunity to expand vegetarian offerings in markets with high non-veg concentration.
+   - Non-Veg restaurants dominate (~72%), Veg options are only ~28%.
+   - There is opportunity to expand vegetarian offerings in markets with high non-veg concentration.
 
 - Cuisine Popularity & Ratings
- - Most popular cuisines by count: North Indian, Chinese, Indian, Fast Food.
- - High-rating niches: Bakery, Desserts maintain strong ratings despite lower counts → opportunity to grow specialty segments.
+  - Most popular cuisines by count: North Indian, Chinese, Indian, Fast Food.
+  - High-rating niches: Bakery, Desserts maintain strong ratings despite lower counts → opportunity to grow specialty segments.
 
 - Premium Restaurant Performance
  - Premium restaurants consistently outperform in ratings (~4.0–4.2), indicating better customer satisfaction.
