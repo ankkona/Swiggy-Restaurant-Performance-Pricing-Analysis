@@ -39,7 +39,7 @@ This project analyzes restaurant-level data from an online food delivery platfor
 - Certain cuisines (e.g., Desserts, Beverages) show high ratings despite lower volumes, indicating niche strengths.
 
 # Dashboard
-<img src ="">
+<img src="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Dashboard.png" alt="Dashboard Demo" width="1000"/>
 
 # Data Visuals
 KPI Cards: Total Restaurants, Average Rating, % High-Rated Restaurants, Best Performing City.
