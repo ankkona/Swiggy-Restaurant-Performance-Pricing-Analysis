@@ -16,7 +16,7 @@ This project analyzes restaurant-level data from an online food delivery platfor
 - **Locality Cleanup**: Addressed missing locality information by replacing nulls in the Locality column with corresponding values from the Area column.
 - **Long-Distance Delivery**: Created a derived binary feature **Distance_flag** to indicate delivery distance: **Long Distance / Normal**.
 
-# Business qs
+# Business Questions
 - How are restaurant ratings distributed across the platform?
 - Does pricing (cost range / budget category) influence average customer ratings?
 - Which cities perform best when considering both quality (rating) and scale (number of restaurants)?
@@ -35,7 +35,6 @@ This project analyzes restaurant-level data from an online food delivery platfor
     - Kolkata and Pune as strong, mature markets (high rating + high count).
     - Mumbai as high rating but moderate count, indicating expansion potential.
     - Cities like Indore and Nagpur fall into low rating + low count, making them lower priority.
-
 - Certain cuisines (e.g., Desserts, Beverages) show high ratings despite lower volumes, indicating niche strengths.
 
 # Dashboard
@@ -62,7 +61,7 @@ Cuisine Ratings & Popularity (Combo Chart): Balances demand vs customer satisfac
 - Use high-rated niche cuisines (e.g., desserts, beverages) for targeted marketing campaigns.
 - Encourage budget restaurants to improve quality through pricing optimization and menu standardization.
 - Leverage the city performance matrix to prioritize market expansion and operational focus.
-- 
+  
 # Expected Impact
 - Improved customer satisfaction and retention by focusing on quality gaps.
 - Higher order value and revenue uplift through premium restaurant promotion.
