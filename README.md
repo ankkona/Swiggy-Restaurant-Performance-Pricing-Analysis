@@ -6,12 +6,16 @@ The dataset contains restaurant-level information including ratings, cost, cuisi
 - <a href="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Swiggy%20Dataset.xlsx">Swiggy Restaurant Data</a>
 
 # Tech Stack
-
 - Microsoft Excel
 - Pivot Tables & Pivot Charts
-- Calculated Fields & Derived Columns 
+- Advanced Excel Charts (Bar, Column, Stacked Bar, Donut, Scatter Plot)
 - Data Cleaning & Validation
-- Dashboard Design –
+- Calculated Fields & Derived Metrics
+- KPI Design
+- Interactive Dashboards using Slicers
+
+# Dashboard
+<img src="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Dashboard.png" alt="Dashboard Demo" width="1000"/>
 
 # Data Cleaning
 - **Ratings**
@@ -67,43 +71,24 @@ The dataset contains restaurant-level information including ratings, cost, cuisi
   - Low Rating + High Count: Ahmedabad → quality risk
   - Low Rating + Low Count: Indore, Nagpur → low priority
 
-# Dashboard
-<img src="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Dashboard.png" alt="Dashboard Demo" width="1000"/>
-
-# Data Visuals
-KPI Cards: Total Restaurants, Average Rating, % High-Rated Restaurants, Best Performing City.
-
-Distribution of Restaurant Ratings: Shows concentration in the 3.5–4.5 range.
-
-Average Rating by Cost Range: Demonstrates rating improvement with higher spend.
-
-Veg vs Non-Veg Donut Chart: Highlights menu composition dominance.
-
-Ratings by Budget Category (Stacked Bar): Compares quality distribution across Budget, Mid-Range, and Premium.
-
-City Performance Matrix (Scatter Plot with Benchmarks): Strategic quadrant view of city performance.
-
-Cuisine Ratings & Popularity (Combo Chart): Balances demand vs customer satisfaction.
-
 # What should the organisation do next?
-- Invest in high-rating, low-count cities (e.g., Mumbai) by onboarding more quality restaurants.
-- Improve quality standards in low-rating but high-count cities through partner audits and incentives.
-- Promote premium and mid-range restaurants, as they consistently outperform budget options in ratings.
-- Use high-rated niche cuisines (e.g., desserts, beverages) for targeted marketing campaigns.
-- Encourage budget restaurants to improve quality through pricing optimization and menu standardization.
-- Leverage the city performance matrix to prioritize market expansion and operational focus.
+- Expand selectively in high-rating, low-count cities (e.g., Mumbai) by onboarding more quality restaurants to scale strong customer satisfaction without diluting quality.
+- Address quality gaps in low-rating, high-count cities (e.g., Ahmedabad) through partner audits, menu standardization, and rating-linked incentive programs.
+- Prioritize promotion of premium and mid-range restaurants, as these segments consistently demonstrate higher average customer ratings.
+- Leverage high-rated but underrepresented cuisines (e.g., desserts, bakery) for targeted campaigns to diversify demand and increase repeat orders.
+- Support budget restaurants with quality improvement initiatives (pricing transparency, packaging standards, menu optimization) to lift overall platform ratings.
+- Use the city performance quadrant (rating vs. count) as a recurring decision framework for market expansion, retention, and operational focus.
   
 # Expected Impact
-- Improved customer satisfaction and retention by focusing on quality gaps.
-- Higher order value and revenue uplift through premium restaurant promotion.
-- Smarter city-level expansion decisions, reducing operational risk.
-- More efficient marketing spend by targeting high-impact cuisines and cities.
-- Long-term platform growth driven by data-backed strategic prioritization.
+- Higher customer satisfaction and retention by systematically addressing low-rating segments and cities.
+- Revenue and order value uplift through increased visibility and adoption of premium and high-rated restaurants.
+- Reduced operational risk by prioritizing expansion in proven high-quality markets.
+- More efficient marketing spend by focusing on high-impact cuisines and city segments rather than broad promotions.
+- Sustainable platform growth driven by data-backed city and category prioritization.
 
 # Assumptions & Limitations
-
-- Ratings are assumed to be reliable and representative of customer satisfaction, though they may be influenced by subjective user behavior or low review counts.
-- Pricing (cost for two) is treated as static, without accounting for discounts, surge pricing, or time-based offers.
-- Operational factors such as delivery time, cancellations, or partner availability are not included, which may also impact customer ratings.
+- Customer ratings are assumed to reasonably reflect satisfaction, though they may be influenced by subjectivity or varying review volumes across restaurants.
+- Pricing data (cost for two) is treated as static and does not account for discounts, surge pricing, or time-based offers.
+- The analysis excludes operational metrics such as delivery time, order cancellations, and partner availability, which may also affect customer experience.
 
 
