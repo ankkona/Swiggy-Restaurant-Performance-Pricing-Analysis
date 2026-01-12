@@ -26,16 +26,38 @@ This project analyzes restaurant-level data from an online food delivery platfor
 - Which cities represent growth opportunities versus quality risks?
   
 # Key Insights
-- The overall average rating is 3.9, indicating generally positive but improvable customer satisfaction.
-- Only 23.2% of restaurants fall into the high-rated category, highlighting a quality improvement opportunity.
-- Restaurants with higher cost ranges (>600) achieve the highest average ratings (≈4.16), suggesting a strong pricing–quality relationship.
-- Non-Veg restaurants dominate the platform (72.5%), reflecting customer demand patterns.
-- Kolkata emerges as the best performing city when combining rating and restaurant count (weighted impact).
-- The City Performance Matrix shows:
-    - Kolkata and Pune as strong, mature markets (high rating + high count).
-    - Mumbai as high rating but moderate count, indicating expansion potential.
-    - Cities like Indore and Nagpur fall into low rating + low count, making them lower priority.
-- Certain cuisines (e.g., Desserts, Beverages) show high ratings despite lower volumes, indicating niche strengths.
+- Restaurant Ratings Distribution
+   - Most restaurants fall in the 3.5–4.5 rating range (78% of restaurants), showing generally good quality.
+   - Very few (<3%) are below 3.0, indicating minimal poor-performing restaurants.
+
+- Impact of Pricing on Ratings
+   - Premium restaurants consistently have higher average ratings (~4.0–4.2).
+   - Mid-range restaurants dominate the market with moderate ratings (~3.9–4.1).
+   - Budget restaurants have the highest quantity but slightly lower ratings (~3.8–4.0).
+
+- City Performance (Quality + Scale)
+  - Kolkata: Highest weighted score → strong market impact due to both high rating and high restaurant count.
+  - Mumbai: Highest average rating but fewer restaurants → high quality, smaller scale.
+  - Ahmedabad: High count but lower average rating → potential quality risk.
+  - Indore, Nagpur: Low rating + low count → low priority for expansion.
+
+- Veg vs Non-Veg Distribution
+ - Non-Veg restaurants dominate (~72%), Veg options are only ~28%.
+ - There is opportunity to expand vegetarian offerings in markets with high non-veg concentration.
+
+- Cuisine Popularity & Ratings
+ - Most popular cuisines by count: North Indian, Chinese, Indian, Fast Food.
+ - High-rating niches: Bakery, Desserts maintain strong ratings despite lower counts → opportunity to grow specialty segments.
+
+- Premium Restaurant Performance
+ - Premium restaurants consistently outperform in ratings (~4.0–4.2), indicating better customer satisfaction.
+ - Mid-range and budget restaurants show mixed performance.
+
+- City Quadrant Insights
+ - High Rating + High Count: Kolkata, Pune → strong, mature markets
+ - High Rating + Low Count: Mumbai → expansion opportunity
+ - Low Rating + High Count: Ahmedabad → quality risk
+ - Low Rating + Low Count: Indore, Nagpur → low priority
 
 # Dashboard
 <img src="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Dashboard.png" alt="Dashboard Demo" width="1000"/>
@@ -54,7 +76,8 @@ Ratings by Budget Category (Stacked Bar): Compares quality distribution across B
 City Performance Matrix (Scatter Plot with Benchmarks): Strategic quadrant view of city performance.
 
 Cuisine Ratings & Popularity (Combo Chart): Balances demand vs customer satisfaction.
-# What should the organisation do next best on your findings?
+
+# What should the organisation do next?
 - Invest in high-rating, low-count cities (e.g., Mumbai) by onboarding more quality restaurants.
 - Improve quality standards in low-rating but high-count cities through partner audits and incentives.
 - Promote premium and mid-range restaurants, as they consistently outperform budget options in ratings.
