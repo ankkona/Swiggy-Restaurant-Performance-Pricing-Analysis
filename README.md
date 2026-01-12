@@ -2,8 +2,16 @@
 This project analyzes restaurant-level data from an online food delivery platform (Swiggy) to derive insights on pricing, customer ratings, cuisine distribution and delivery operations.
 
 # Dataset
+The dataset contains restaurant-level information including ratings, cost, cuisine, city, food type, and delivery distance.
 - <a href="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Swiggy%20Dataset.xlsx">Swiggy Restaurant Data</a>
-# Dashboard
+
+# Tech Stack
+
+- Microsoft Excel
+- Pivot Tables & Pivot Charts
+- Calculated Fields & Derived Columns 
+- Data Cleaning & Validation
+- Dashboard Design –
 
 # Data Cleaning
 - **Ratings**
@@ -91,5 +99,11 @@ Cuisine Ratings & Popularity (Combo Chart): Balances demand vs customer satisfac
 - Smarter city-level expansion decisions, reducing operational risk.
 - More efficient marketing spend by targeting high-impact cuisines and cities.
 - Long-term platform growth driven by data-backed strategic prioritization.
+
+# Assumptions & Limitations
+
+- Ratings are assumed to be reliable and representative of customer satisfaction, though they may be influenced by subjective user behavior or low review counts.
+- Pricing (cost for two) is treated as static, without accounting for discounts, surge pricing, or time-based offers.
+- Operational factors such as delivery time, cancellations, or partner availability are not included, which may also impact customer ratings.
 
 
