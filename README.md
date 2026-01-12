@@ -26,38 +26,38 @@ This project analyzes restaurant-level data from an online food delivery platfor
 - Which cities represent growth opportunities versus quality risks?
   
 # Key Insights
-- Restaurant Ratings Distribution
+- __Restaurant Ratings Distribution__
    - Most restaurants fall in the 3.5–4.5 rating range (78% of restaurants), showing generally good quality.
    - Very few (<3%) are below 3.0, indicating minimal poor-performing restaurants.
 
-- Impact of Pricing on Ratings
+- __Impact of Pricing on Ratings__
    - Premium restaurants consistently have higher average ratings (~4.0–4.2).
    - Mid-range restaurants dominate the market with moderate ratings (~3.9–4.1).
    - Budget restaurants have the highest quantity but slightly lower ratings (~3.8–4.0).
 
-- City Performance (Quality + Scale)
+- __City Performance (Quality + Scale)__
   - Kolkata: Highest weighted score → strong market impact due to both high rating and high restaurant count.
   - Mumbai: Highest average rating but fewer restaurants → high quality, smaller scale.
   - Ahmedabad: High count but lower average rating → potential quality risk.
   - Indore, Nagpur: Low rating + low count → low priority for expansion.
 
-- Veg vs Non-Veg Distribution
+- __Veg vs Non-Veg Distribution__
    - Non-Veg restaurants dominate (~72%), Veg options are only ~28%.
    - There is opportunity to expand vegetarian offerings in markets with high non-veg concentration.
 
-- Cuisine Popularity & Ratings
+- __Cuisine Popularity & Ratings__
   - Most popular cuisines by count: North Indian, Chinese, Indian, Fast Food.
   - High-rating niches: Bakery, Desserts maintain strong ratings despite lower counts → opportunity to grow specialty segments.
 
-- Premium Restaurant Performance
- - Premium restaurants consistently outperform in ratings (~4.0–4.2), indicating better customer satisfaction.
- - Mid-range and budget restaurants show mixed performance.
+- __Premium Restaurant Performance__
+  - Premium restaurants consistently outperform in ratings (~4.0–4.2), indicating better customer satisfaction.
+  - Mid-range and budget restaurants show mixed performance.
 
-- City Quadrant Insights
- - High Rating + High Count: Kolkata, Pune → strong, mature markets
- - High Rating + Low Count: Mumbai → expansion opportunity
- - Low Rating + High Count: Ahmedabad → quality risk
- - Low Rating + Low Count: Indore, Nagpur → low priority
+- __City Quadrant Insights__
+  - High Rating + High Count: Kolkata, Pune → strong, mature markets
+  - High Rating + Low Count: Mumbai → expansion opportunity
+  - Low Rating + High Count: Ahmedabad → quality risk
+  - Low Rating + Low Count: Indore, Nagpur → low priority
 
 # Dashboard
 <img src="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Dashboard.png" alt="Dashboard Demo" width="1000"/>
