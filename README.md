@@ -1,5 +1,5 @@
 # Swiggy-Restaurant-Performance-Pricing-Analysis
-This project analyzes restaurant-level data from an online food delivery platform (Swiggy) to derive insights on pricing, customer ratings, cuisine distribution and delivery operations.
+This project analyzes restaurant-level data from an online food delivery platform (Swiggy) to uncover insights into pricing strategy, customer ratings, cuisine preferences, and city-level performance.
 
 # Dataset
 The dataset contains restaurant-level information including ratings, cost, cuisine, city, food type, and delivery distance.
