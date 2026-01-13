@@ -15,7 +15,7 @@ The dataset contains restaurant-level information including ratings, cost, cuisi
 - Interactive Dashboards using Slicers
 
 # Dashboard
-<img src="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/1.png" alt="Dashboard Demo" width="1200"/>
+<img src="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Dashboard.png" width="1200"/>
 
 # Data Cleaning
 - **Ratings**
