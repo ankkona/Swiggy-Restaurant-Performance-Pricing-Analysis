@@ -72,12 +72,16 @@ The dataset contains restaurant-level information including ratings, cost, cuisi
   - Low Rating + Low Count: Indore, Nagpur → low priority
 
 # What should the organisation do next?
-- Expand selectively in high-rating, low-count cities (e.g., Mumbai) by onboarding more quality restaurants to scale strong customer satisfaction without diluting quality.
-- Address quality gaps in low-rating, high-count cities (e.g., Ahmedabad) through partner audits, menu standardization, and rating-linked incentive programs.
-- Prioritize promotion of premium and mid-range restaurants, as these segments consistently demonstrate higher average customer ratings.
-- Leverage high-rated but underrepresented cuisines (e.g., desserts, bakery) for targeted campaigns to diversify demand and increase repeat orders.
-- Support budget restaurants with quality improvement initiatives (pricing transparency, packaging standards, menu optimization) to lift overall platform ratings.
-- Use the city performance quadrant (rating vs. count) as a recurring decision framework for market expansion, retention, and operational focus.
+- Protect and strengthen mature markets (Kolkata, Pune)
+Focus on partner retention, operational efficiency, and premium visibility rather than aggressive expansion, since both scale and quality are already strong.
+- Expand supply in Mumbai cautiously but deliberately
+Mumbai shows excellent customer satisfaction but lower restaurant density; onboarding should prioritize quality-first partners to scale without eroding ratings.
+- Fix quality before scaling in Delhi and Ghaziabad
+These cities already have scale, so the priority should be rating improvement initiatives (partner audits, menu consistency, service standards) rather than adding more restaurants.
+- Treat Ahmedabad, Lucknow, Hyderabad, Indore, and Nagpur as incubation markets
+Expansion should be selective and data-driven, focusing on improving customer experience and identifying strong local performers before committing larger investments.
+- Use the city performance matrix as a control mechanism
+Any city should move right (scale) only after it moves up (quality), using rating benchmarks as a gate for expansion decisions.
   
 # Expected Impact
 - Higher customer satisfaction and retention by systematically addressing low-rating segments and cities.
