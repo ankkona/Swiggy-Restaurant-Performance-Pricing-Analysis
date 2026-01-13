@@ -89,6 +89,7 @@ The dataset contains restaurant-level information including ratings, cost, cuisi
 # Assumptions & Limitations
 - Customer ratings are assumed to reasonably reflect satisfaction, though they may be influenced by subjectivity or varying review volumes across restaurants.
 - Pricing data (cost for two) is treated as static and does not account for discounts, surge pricing, or time-based offers.
+- Veg / Non-Veg classification is defined at the restaurant level rather than at the cuisine or item level, which may lead to unintuitive combinations (e.g., beverages or specific cuisines appearing as non-veg).
 - The analysis excludes operational metrics such as delivery time, order cancellations, and partner availability, which may also affect customer experience.
 
 
