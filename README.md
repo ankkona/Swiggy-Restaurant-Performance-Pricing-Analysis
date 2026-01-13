@@ -43,9 +43,9 @@ The dataset contains restaurant-level information including ratings, cost, cuisi
    - Very few (<3%) are below 3.0, indicating minimal poor-performing restaurants.
 
 - __Impact of Pricing on Ratings__
-   - Premium restaurants consistently have higher average ratings (~4.0–4.2).
-   - Mid-range restaurants dominate the market with moderate ratings (~3.9–4.1).
-   - Budget restaurants have the highest quantity but slightly lower ratings (~3.8–4.0).
+   - Budget restaurants form the largest share of the platform, which is why they contribute the highest absolute number of restaurants across all rating bands. However, they also show a wider spread into lower rating categories (<3.5), indicating greater variability in customer experience.
+   - Mid-range restaurants are more concentrated in the 3.5–4.5 rating bands, suggesting relatively stable and predictable quality, though with limited presence in the highest (4.5+) tier.
+   - Premium restaurants, despite being fewer in number, show a strong concentration in higher rating ranges (4.0+) and minimal presence in low-rating bands, indicating more consistent customer satisfaction rather than higher volume.
 
 - __City Performance (Quality + Scale)__
   - Kolkata: Highest weighted score → strong market impact due to both high rating and high restaurant count.
