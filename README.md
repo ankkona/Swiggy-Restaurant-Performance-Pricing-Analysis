@@ -18,13 +18,16 @@ The dataset contains restaurant-level information including ratings, cost, cuisi
 <img src="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Dashboard.png" width="1200"/>
 
 # Data Cleaning
+- **Primary Cuisine**
+- **Primary Cuisine Cleaned**
 - **Ratings**
      - Created an additional column **Ratings_Range** to capture the numeric rating ranges corresponding to each rating label.
      - Converted raw numeric ratings into categorical labels **(Poor, Average, Good, Excellent)** to facilitate meaningful analysis.
-- **Food Category**: Cleaned and consolidated food type data into a binary feature: **Veg / Non-Veg**.
 - **Cost Validation**: Created a column to mark cost values as Valid or Invalid.
 - **Cost Cleanup**: Identified invalid cost entries and removed outliers **(values below 100)** to maintain data integrity.
+- **Cost Range**
 - **Budget Category**: Engineered a **Budget_Category** feature by segmenting cost into meaningful ranges: **Mid Range, Budget, Premium**.
+- **Food Category**: Cleaned and consolidated food type data into a binary feature: **Veg / Non-Veg**.
 - **Locality Cleanup**: Addressed missing locality information by replacing nulls in the Locality column with corresponding values from the Area column.
 - **Long-Distance Delivery**: Created a derived binary feature **Distance_flag** to indicate delivery distance: **Long Distance / Normal**.
 
@@ -39,8 +42,8 @@ The dataset contains restaurant-level information including ratings, cost, cuisi
   
 # Key Insights
 - __Restaurant Ratings Distribution__
-   - Most restaurants fall in the 3.5–4.5 rating range (78% of restaurants), showing generally good quality.
-   - Very few (<3%) are below 3.0, indicating minimal poor-performing restaurants.
+   - The majority of restaurants (~78%) fall within the 3.5–4.5 rating range, indicating generally good and consistent quality across the platform.
+   - A small proportion (3.5%) of restaurants are rated below 3.0, suggesting limited presence of poorly performing outlets.
 
 - __Impact of Pricing on Ratings__
    - Budget restaurants form the largest share of the platform, which is why they contribute the highest absolute number of restaurants across all rating bands. However, they also show a wider spread into lower rating categories (<3.5), indicating greater variability in customer experience.
