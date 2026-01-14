@@ -18,14 +18,14 @@ The dataset contains restaurant-level information including ratings, cost, cuisi
 <img src="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Dashboard.png" width="1200"/>
 
 # Data Cleaning
-- **Primary Cuisine**
-- **Primary Cuisine Cleaned**
+- **Primary Cuisine** : Extracted the first cuisine listed from the original cuisine column.
+- **Primary Cuisine Cleaned** : Consolidated similar categories by merging Sweets and Ice Creams into a single Desserts category.
 - **Ratings**
      - Created an additional column **Ratings_Range** to capture the numeric rating ranges corresponding to each rating label.
      - Converted raw numeric ratings into categorical labels **(Poor, Average, Good, Excellent)** to facilitate meaningful analysis.
 - **Cost Validation**: Created a column to mark cost values as Valid or Invalid.
 - **Cost Cleanup**: Identified invalid cost entries and removed outliers **(values below 100)** to maintain data integrity.
-- **Cost Range**
+- **Cost Range** : Bucketed cost values into defined ranges: ≤200, 200–400, 400–600, >600.
 - **Budget Category**: Engineered a **Budget_Category** feature by segmenting cost into meaningful ranges: **Mid Range, Budget, Premium**.
 - **Food Category**: Cleaned and consolidated food type data into a binary feature: **Veg / Non-Veg**.
 - **Locality Cleanup**: Addressed missing locality information by replacing nulls in the Locality column with corresponding values from the Area column.
