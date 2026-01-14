@@ -66,10 +66,14 @@ The dataset contains restaurant-level information including ratings, cost, cuisi
   - Mid-range and budget restaurants show mixed performance.
 
 - __City Quadrant Insights__
-  - High Rating + High Count: Kolkata, Pune → strong, mature markets
-  - High Rating + Low Count: Mumbai → expansion opportunity
-  - Low Rating + High Count: Ahmedabad → quality risk
-  - Low Rating + Low Count: Indore, Nagpur → low priority
+  - __High Rating + High Restaurant Count__ (Strong & Mature Markets) - Kolkata, Pune
+    - These cities perform well on both customer satisfaction and scale. They are established markets delivering consistent quality with a large number of restaurants.
+  - __High Rating + Low Restaurant Count__ (High Potential for Expansion) - Mumbai, Ahmedabad
+    - Both cities show strong average ratings but have relatively fewer restaurants. This indicates good customer experience with room to expand supply without hurting quality.
+  - __Low Rating + High Restaurant Count__ (Quality Improvement Needed - Ghaziabad, Delhi
+    - These markets have many restaurants but sit below the average rating line, suggesting operational or quality consistency issues that should be addressed before further expansion.
+  - __Low Rating + Low Restaurant Count__ (Low Priority Markets- Lucknow, Hyderabad, Indore, Nagpur
+    - These cities currently show weaker performance on both scale and ratings, making them lower priority for immediate growth or investment.
 
 # What should the organisation do next?
 - Protect and strengthen mature markets (Kolkata, Pune)
