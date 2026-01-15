@@ -1,8 +1,8 @@
 # Swiggy-Restaurant-Performance-Pricing-Analysis
-This project analyzes restaurant-level data from an online food delivery platform (Swiggy) to uncover insights into pricing strategy, customer ratings, cuisine preferences, and city-level performance.
+This project analyzes restaurant-level data from an online food delivery platform (Swiggy) to uncover insights into pricing strategy, customer ratings, cuisine preferences, and city-level performance. This analysis identifies how pricing tiers, city scale, and cuisine mix influence customer satisfaction on Swiggy. Using a quality-vs-scale framework, the project highlights where Swiggy should expand, where quality must be fixed before scaling, and which segments offer the highest return on investment.
 
 # Dataset
-The dataset contains restaurant-level information including ratings, cost, cuisine, city, food type, and delivery distance.
+The dataset contains restaurant-level information including ratings, cost, cuisine, city, food type, and delivery distance.This analysis uses a publicly available / simulated dataset for educational and portfolio purposes.
 - <a href="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Swiggy%20Dataset.xlsx">Swiggy Restaurant Data</a>
 
 # Tech Stack
