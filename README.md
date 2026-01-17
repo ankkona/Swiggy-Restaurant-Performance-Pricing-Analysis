@@ -15,7 +15,7 @@ The dataset contains restaurant-level information including ratings, cost, cuisi
 - Interactive Dashboards using Slicers
 
 # Dashboard
-<img src="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Dashboard%20Modified.png" width="1200"/>
+<img src="https://github.com/ankkona/Swiggy-Restaurant-Performance-Pricing-Analysis/blob/main/Dashboard_Modified.png" width="1200"/>
 
 # Data Cleaning
 - **Primary Cuisine** : Extracted the first cuisine listed from the original cuisine column.
